@@ -1,5 +1,21 @@
 # Influence Maximization using ACO 
- * Víctor Emiliano Cruz Hernández
+### Introduction
+Finding the most influential people is a NP-Hard problem. Authors have for-
+malized the problem as:
+> Given a weighted graph in which nodes are people and edge weights represent
+the influence of the people on each other it is desired to find k starting nodes
+that their activation leads to maximum propagation based on a chosen
+influence maximization model.
+
+Assume we have data on a graph which estimates which individuals influence
+on others. We would like to market a new product that we hope will be adopted
+by a large fraction of the network by initially targeting a few ”influential” members of the network and giving them free samples of the product, hoping we can
+maximize the number of people influenced by this individual. The problem aims
+to find a number of people that are able to maximize the spread of influence
+through a target social network.
+
+### Research
+This code represent an implementation of the technique aboarded by Chiman Salvati and Alireza Abdollahpouri in their <a href="https://www.sciencedirect.com/science/article/pii/S2210650218304577" target="_blank"> research paper</a>.
 
 ### Requirements
 * Have <a href="https://doc.rust-lang.org/cargo/getting-started/installation.html" target="_blank"> Cargo</a> installed :crab:
